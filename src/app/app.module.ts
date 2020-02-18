@@ -10,7 +10,6 @@ import { NZ_I18N, zh_CN } from 'ng-zorro-antd';
   imports: [
     CoreModule
   ],
-  providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
